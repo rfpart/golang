@@ -25,7 +25,9 @@ func main() {
 	}
 
 	p1 := Pessoa{"João", 1}
-	p2 := Pessoa{"João", 2}
+	p2 := Pessoa{"João", 1}
+
 	fmt.Println("Pessoas", p1 == p2)
+	fmt.Println(p1, p1.Nome, p1.int)
 	fmt.Println(p1, p1.Nome, p1.int)
 }
